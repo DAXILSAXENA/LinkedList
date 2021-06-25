@@ -5,9 +5,9 @@ public class Test {
 		LinkedList list = new LinkedList();
 
 		System.out.println("Welcome to LinkedList program:");
-		list.addAtFirst(70);
-		list.addAtFirst(30);
-		list.addAtFirst(56);
+		list.appendinAtLast(56);
+		list.appendinAtLast(30);
+		list.appendinAtLast(70);
 		list.viewList();
 	}
 }
